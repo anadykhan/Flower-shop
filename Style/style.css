@@ -200,7 +200,7 @@
 
 /*Instagram Section*/
 .instagram {
-    height: 80vh;
+    height: 70vh;
 }
 
 .instagram-container {
@@ -245,7 +245,7 @@
 
 /*Deals section*/
 .deals {
-    height: 60vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,7 +303,7 @@
 
 /*Customer review section*/
 .customer-reviews {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,6 +311,7 @@
 
 .customer-reviews-container {
     height: 70vh;
+    width: 100vw;
     background-color: #FCEEF1;
     display: flex;
     flex-direction: column;
@@ -374,20 +375,24 @@
 
 /*Footer section*/
 .footer-section {
-    height: 50vh;
+    padding-top: 4rem;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #111010;
+    
     color: white;
 }
 
 .footer-content {
+    height: 50vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.6rem;
+    background-color: #111010;
 }
 
 .footer-title {
