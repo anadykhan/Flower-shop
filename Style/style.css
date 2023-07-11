@@ -239,3 +239,18 @@
 .instagram-images-main {
     width: 18vw;
 }
+
+/*Deals section*/
+.deals {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-container {
+    
+    height: 50vh;
+    width: 78.667vw;
+}
+
