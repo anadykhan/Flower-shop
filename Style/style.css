@@ -88,7 +88,7 @@
     text-align: center;
     width: 40vw;
     color: #7d7d7d;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .featured-page-collection-container {
@@ -227,7 +227,7 @@
     text-align: center;
     width: 40vw;
     color: #7d7d7d;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .instagram-images {
@@ -294,3 +294,40 @@
 }
 
 /*Footer section*/
+.footer-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111010;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-flower {
+    color: #E55473;
+}
+
+.footer-subtitle {
+    width: 40vw;
+    text-align: center;
+    font-weight: 300;
+}
+
+.footer-copywrite {
+    font-size: 0.7rem;
+    color: #707070;
+}
