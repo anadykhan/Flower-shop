@@ -220,6 +220,7 @@
 .instagram-title {
     font-size: 1.5rem;
     font-weight: 700;
+    color: #272727;
 }
 
 .instagram-subtitle {
@@ -249,8 +250,45 @@
 }
 
 .deals-container {
-    
     height: 50vh;
     width: 78.667vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 
+.deals-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.deals-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #272727;
+}
+
+.deals-subtitle {
+    text-align: center;
+    width: 40vw;
+    color: #7d7d7d;
+    font-weight: 300;
+}
+
+.input-main {
+
+}
+
+.subscribe {
+    padding: 0.8rem 1.5rem;
+    border-style: none;
+    background-color: #E55473;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+}
