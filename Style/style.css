@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title-page {
+    height: 100vh;
+    background-color: #FCEEF1;
+}
+
+.title-page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-page-content {
+    height: 30vh;
+    width: 35vw;
+}
+
+
+
+.title-page-image {
+    height: 90vh;
+    padding-bottom: 0px;
+}
