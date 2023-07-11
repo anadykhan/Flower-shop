@@ -74,6 +74,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
+}
+
+.featured-page-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #272727;
+}
+
+.featured-page-subtitle {
+    text-align: center;
+    width: 40vw;
+    color: #7d7d7d;
+    font-weight: 400;
 }
 
 .featured-page-collection-container {
@@ -86,15 +100,41 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: 1.5rem;
 }
 
 .featured-page-collection-box-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 14rem;
+    padding-top: 1.5rem;
+}
+
+.featured-page-figure-name {
+    text-decoration: underline;
+    color: #272727;
+}
+
+.flower-box-1,
+.flower-box-2,
+.flower-box-3 {
+    background-color: #FCEEF1;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.flower-box-2 {
+    background-color: #daeff1;
+}
+
+.flower-box-3 {
+    background-color: #e3ecdb;
 }
 
 .featured-flowers-img {
-    height: 30vh;
-    width: 10vw;
+    height: 40vh;
+    width: 15vw;
+    padding: 0 2.5rem;
+    padding-top: 5.5rem;
 }
