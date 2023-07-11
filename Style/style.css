@@ -250,6 +250,8 @@
 }
 
 .deals-container {
+    background-image: url('../Flower-Asset/Rectangle\ 9.png');
+    background-size: cover;
     height: 50vh;
     width: 78.667vw;
     display: flex;
@@ -281,7 +283,11 @@
 }
 
 .input-main {
-
+    height: 6.8vh;
+    width: 35vw;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 1rem;
 }
 
 .subscribe {
