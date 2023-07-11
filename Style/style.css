@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 
 .title-page-content {
@@ -53,6 +54,7 @@
 
 .title-page-image {
     height: 90vh;
+    padding-top: 4rem;
     padding-bottom: 0px;
 }
 
@@ -302,6 +304,9 @@
 /*Customer review section*/
 .customer-reviews {
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .customer-reviews-container {
