@@ -56,3 +56,45 @@
     padding-bottom: 0px;
 }
 
+/*Featured page design*/
+.featured-flowers {
+    height: 100vh;
+}
+
+.featured-flowers-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-page-collection-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-page-collection-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured-page-collection-box-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.featured-flowers-img {
+    height: 30vh;
+    width: 10vw;
+}
